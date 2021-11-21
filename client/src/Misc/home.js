@@ -57,7 +57,7 @@ class Home extends React.Component {
     return (
 
       <Layout className="layout-style">
-        <h2>Welcome to the Sieberrsec Training Platform!</h2>
+        <h2>Welcome to the CybSec-NITW Training Platform!</h2>
         <h3>This platform is in early alpha. Do report any bugs you find :D!</h3>
         <Divider />
         <div style={{ display: "flex", alignItems: "center" }}>

@@ -87,7 +87,7 @@ class Login extends React.Component {
                 message.error("Oops. Registration is currently disabled, please contact an administrator for help.")
             }
             else if (data.error === "email-formatting") {
-                message.error({ content: "Oops. Your email has not been registered for Sieberrsec CTF yet, please register using the form." })
+                message.error({ content: "Oops. Your email has not been registered for CybSec-NITW yet, please register using the form." })
             }
             else {
                 message.error({ content: "Oops. Unknown error" })
@@ -324,10 +324,10 @@ class Login extends React.Component {
                 <Content style={{ display: "flex", alignItems: "center", justifyContent: "center", backgroundColor: "rgba(0, 0, 0, 0)", backgroundImage: "url(" + require("./../assets/mainBG.webp").default + ")" }}>
                     <div className="login-banner login-banner-responsive">
                         <div style={{ fontSize: "7ch", color: "#595959" }}>
-                            <span style={{ fontWeight: "500", textShadow: '1px -1px 1px -1px #000000' }}>Sieberrsec Training Platform</span>
+                            <span style={{ fontWeight: "500", textShadow: '1px -1px 1px -1px #000000' }}>CybSec-NITW Training platform</span>
                         </div>
                         <div style={{ color: "#595959", fontSize: "5ch" }}>
-                            <p style={{ textShadow: '1px 1px 1px 1px #000000' }}>The Wheel. Reinvented.™</p>
+                            <p style={{ textShadow: '1px 1px 1px 1px #000000' }}>Happy Hacking ( ͡≖ ͜ʖ ͡≖)</p>
                         </div>
                     </div>
 
