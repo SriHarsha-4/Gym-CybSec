@@ -329,7 +329,7 @@ class App extends React.Component {
 
                         </Menu>
                         <div style={{ textAlign: "center", marginTop: "3ch", color: "#8c8c8c" }}>
-                          <p>Gym-CybSec<a href="https://github.com/CybSec-NITW" target="_blank">Follow <GithubOutlined /></a></p>
+                          <p>Gym-CybSec <a href="https://github.com/CybSec-NITW" target="_blank">Follow <GithubOutlined /></a></p>
                         </div>
                       </div>
                     </Sider>
