@@ -1,81 +1,68 @@
-# Sieberrsec CTF Platform 😃
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![](demo_assets/demo2.gif)
+## Available Scripts
 
-Sieberrsec CTF platform. A Jeopardy CTF platform designed with various neat features to aid in training and learning. Written in ReactJS and NodeJS
+In the project directory, you can run:
 
-## Installation & Documentation 📘
-The platform can be installed **in a few easy steps** using Docker. Simply check out [installation](https://github.com/IRS-Cybersec/ctf_platform/wiki/Docker-Production-Deployment).
+### `npm start`
 
-Please check out the [wiki](https://github.com/IRS-Cybersec/ctf_platform/wiki) for usage/API documentation!
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Demo 💻
-You can find a working copy of the platform [here](http://de.irscybersec.tk). Feel free to register a new account, or use one of the following pre-made accounts:
-**Normal Account:**
-```bash
-Username: user
-Password: 123
-```
-**Admin Account:**
-```bash
-Username: root
-Password: 123
-```
-_Please exercise caution and do not use any personal emails/passwords/usernames/any other info_
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-## Features 🎆
-- "**Categories**" 🗄️ for better organization of challenges into different "events"
-- **Sorting of challenges** 🏷️ by their tags (`Forensics`, `Pwn` etc.)
-- **Teams** 👫 with individual members scoring
-- **Dynamic Scoring** 💯 for challenges
-- **Live Scoreboard** 🥇 that is relatively light on the server
-- **Announcements** 📢 with markdown support
-- **Markdown supported Challenge Descriptions** ✔️ that allow you to add **code blocks with syntax highlighting** and more
-- **Writeup links** 🔗 per challenge (along with the option to only release writeups after submitting the flag)
-- **Challenge Creator Role** 🧔 so as to allow challenge authors to submit challenges without having full admin access
-- **Set Required Challenges** 🔐 to unlock other challenges
-- **Email password reset & verification** 📧 using any SMTP server
-- **Easy Docker Deployment** 📮 in a few steps
-- Links to each challenge so that individual challenges can be shared
-- Easy management of the platform via an integrated Admin Panel
-  - Disable registration, change permissions, edit passwords etc.
+### `npm test`
 
-Feel free to take a look at the screenshots below for a peek at what the platform can do!
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Screenshots 🖼️
+### `npm build`
 
-![image](demo_assets/1.jpg)
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-*Challenges page. Includes "Categories" to better sort challenges into various events and more*
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-![](demo_assets/5.jpg)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-*In each category, challenges are automatically sorted according to the tags assigned to each challenge by default. You can also all the challenges in a category by switching to "Sort by Category" mode and sort them using various sort options such as in Ascending Amount of Points*
+### `npm eject`
 
-![](demo_assets/6.jpg)
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-*Modal for a challenge*
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-![](demo_assets/2.jpg)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-*Scoreboard of the platform*
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-![](demo_assets/3.jpg)
+## Learn More
 
-*Admin panel showing the list of challenges. Here you can create, edit and delete challenges.*
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-![](demo_assets/4.jpg)
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-*Create a new challenge page*
+### Code Splitting
 
-![](demo_assets/7.jpg)
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-*Profile page of a user*
+### Analyzing the Bundle Size
 
-![](demo_assets/8.jpg)
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-*Home page with announcements*
+### Making a Progressive Web App
 
-![](demo_assets/9.jpg)
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-*Challenge creation page for challenge authors without access to the admin panel*
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `yarn build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

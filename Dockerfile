@@ -30,3 +30,4 @@ RUN chown -R node /usr/share/nginx/static/
 EXPOSE 20005
 # Containers run nginx with global directives and daemon off
 CMD ["nginx", "-g", "daemon off;"]
+
